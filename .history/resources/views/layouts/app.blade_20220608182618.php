@@ -35,7 +35,6 @@
           crossorigin="anonymous"/>
 
           <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.min.css"/>
-          <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/themes/smoothness/jquery-ui.css" />
 
     @stack('third_party_stylesheets')
 
@@ -155,7 +154,6 @@
         $(this).bootstrapSwitch('state', $(this).prop('checked'));
     });
 </script>
-<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.min.js"></script>
 
 @stack('third_party_scripts')
 

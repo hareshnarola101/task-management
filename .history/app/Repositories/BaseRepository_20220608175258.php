@@ -195,6 +195,5 @@ abstract class BaseRepository
         $query = $this->model->newQuery();
 
         $model = $query->orderBy('priority')->get();
-        return $model;
     }
 }

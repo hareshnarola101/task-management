@@ -190,11 +190,4 @@ abstract class BaseRepository
 
         return $model->delete();
     }
-
-    public function sortByPriority(){
-        $query = $this->model->newQuery();
-
-        $model = $query->orderBy('priority')->get();
-        return $model;
-    }
 }
